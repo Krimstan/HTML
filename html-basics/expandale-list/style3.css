@@ -1,0 +1,18 @@
+li > ol {
+    color: darkcyan;}
+ul ul {
+    visibility: hidden;
+    height: 0;
+}
+li:hover > ul {
+    visibility: visible;
+    height: auto;
+}
+li > ol{
+    visibility: hidden;
+    height: 0;
+}
+li:hover > ol {
+    visibility: visible;
+    height: auto;
+}
